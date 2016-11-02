@@ -1,0 +1,30 @@
+/* 後者為大，所以先從小的開始 */
+*{
+  box-sizing: border-box;
+}
+
+  @media (max-width: 767px) {
+    .a{background-color : deepskyblue;
+       transition: 1s;  /* 轉換顏色的時候會有漸進的效果出現 */
+    }
+ }
+ @media (max-width: 480px) {
+    .b{background-color : pink;
+       transition: 1s;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 979px) {
+    .c{background-color : lightgreen;
+       transition: 1s;
+    }
+ }
+ @media (min-width: 980px) {
+    .d{background-color : coral;
+       transition: 1s;
+    }
+ }
+ @media (min-width: 1200px) {
+    .e{background-color : plum;
+       transition: 1s;
+    }
+ }
